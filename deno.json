@@ -1,0 +1,15 @@
+{
+  "name": "@scope/main",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno run -A main.ts"
+  },
+  "workspace": {
+    "members": ["./add", "./subtract", "./log"]
+  },
+  "imports": {
+    "chalk": "npm:chalk@5",
+    "log": "npm:@scope/log"
+  }
+}

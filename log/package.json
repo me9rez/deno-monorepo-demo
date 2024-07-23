@@ -1,0 +1,14 @@
+{
+  "name": "@scope/log",
+  "version": "1.0.0",
+  "description": "print log",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo 'Hello Deno'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
